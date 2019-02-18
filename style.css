@@ -98,11 +98,3 @@ td2{
     width:300px;
     align-items: center;
 }
-@media (max-width : 600px){
-    #main{
-        width: 400px;
-    }
-    #heading{
-        width:400px;
-    }
-}

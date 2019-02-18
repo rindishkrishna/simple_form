@@ -2,12 +2,12 @@ var sub = document.getElementById('submit');
 var main = document.getElementById('main');
 var head = document.getElementById('heading');
 var widt = screen.width;
-console.log(widt);
 
 (function(){
-    if(widt<=600){
+    if(widt<=400){
     main.style.width = widt;
     head.style.width = widt;
+    console.log(widt);
 }
 })();
 

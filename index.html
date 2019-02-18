@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>FORM</title>
+</head>
+<body>
+    <div id="heading">FORM</div>
+    <div id="main">
+        <form>
+            <div class="tabr">
+                <label for="Name" class="td1">Name: </label>
+                <input type="text" name="Name" class="ip td2" placeholder="enter name" id="name" required>
+            </div>
+            <div class="tabr sele">
+                <label for="Class" class="td1">Class: </label>
+                <div class="td2">
+                <select class="sel" name="Class" id="class">
+                    <option>CS</option>
+                    <option>EB</option>
+                    <option>EC</option>
+                    <option>EE</option>
+                </select>
+                <select class="sel" id="sem">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                </select>
+                <select class="sel" id="batch">
+                    <option>A</option>
+                    <option>B</option>
+                    <option></option>
+                </select>
+                </div>
+            </div>
+            <div class="tabr">
+                <lable for="Reg" class="td1">Reg no: </lable>
+                <input type="text" name="Reg" id="reg" class="ip td2" pattern="[0-9]{4}[\-]?[0-9]{2}" placeholder="eg:0000-00" required>
+            </div>
+            <div class="tabr">
+                <label for="Email" class="td1">Email: </label>
+                <input type="email" name="Email" id="mail" class="ip td2" placeholder="someone@anymail.com" required>
+            </div>
+            <button id="submit">Submit</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

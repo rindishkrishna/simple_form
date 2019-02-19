@@ -36,6 +36,7 @@ function submitt(e){
         })
         .then(response => response.json())
         .then(response => alert(JSON.stringify(response)));
+        window.alert(JSON.stringify(da));
         document.getElementById('name').value = '';
         document.getElementById('reg').value = '';
         document.getElementById('mail').value = '';

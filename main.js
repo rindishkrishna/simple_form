@@ -42,4 +42,5 @@ function submitt(e){
         document.getElementById('reg').value = '';
         document.getElementById('mail').value = '';
     }
+    e.preventDefault();
 }

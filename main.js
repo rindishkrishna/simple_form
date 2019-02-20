@@ -28,14 +28,14 @@ function submitt(e){
         'Email' : mail
         };
         window.alert(JSON.stringify(da));
-        fetch('http://jsonplaceholder.typicode.com/Afnan-Navaz/simple_form/posts', {
+        fetch('http://my-json-server.typicode.com/Afnan-Navaz/simple_form/posts', {
             method: 'POST',
             data: JSON.stringify(da),
             headers: {
                 'Content-Type': 'application/json'
             }
         })
-        .then(response => response.json())
+
         .then(response => alert(JSON.stringify(response)));
 
         document.getElementById('name').value = '';

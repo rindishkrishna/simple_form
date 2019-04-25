@@ -2,7 +2,7 @@ var sub = document.getElementById('submit');
 var main = document.getElementById('main');
 var head = document.getElementById('heading');
 var widt = screen.width;
-
+document.querySelector('#color').style.height = window.innerHeight + "px";
 (function(){
     if(widt<=400){
     main.style.width = widt;
@@ -27,8 +27,7 @@ function submitt(e){
         'Reg No' : reg,
         'Email' : mail
         };
-        window.alert(JSON.stringify(da));
-        fetch('http://my-json-server.typicode.com/Afnan-Navaz/simple_form/posts', {
+        fetch('https://my-json-server.typicode.com/Afnan-Navaz/JSON/posts', {
             method: 'POST',
             data: JSON.stringify(da),
             headers: {
@@ -36,11 +35,10 @@ function submitt(e){
             }
         })
 
-        .then(response => alert(JSON.stringify(response)));
-
+        .then(response => response.json()).then(data => console.log(JSON.stringify(data)));
+        window.alert(JSON.stringify(da));
         document.getElementById('name').value = '';
         document.getElementById('reg').value = '';
         document.getElementById('mail').value = '';
     }
-    e.preventDefault();
 }

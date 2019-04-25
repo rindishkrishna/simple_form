@@ -12,10 +12,8 @@
 body{
    background-image: url(leaf.jpg);
     background-size:cover;
-<<<<<<< HEAD
+    background-repeat: no-repeat;
     background-origin: inherit;
-=======
->>>>>>> 5f77d776b7b0c5f31050eee51c99578264958700
     background-attachment: fixed;
     background-position: center;
 }

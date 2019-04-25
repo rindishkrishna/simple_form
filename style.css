@@ -12,7 +12,7 @@
 body{
    background-image: url(leaf.jpg);
     background-size:cover;
-    background-repeat: no-repeat;
+    background-origin: inherit;
     background-attachment: fixed;
     background-position: center;
 }

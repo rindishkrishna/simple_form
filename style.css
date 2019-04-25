@@ -28,9 +28,6 @@ body{
     #box{
         width: 100%;
     }
-    body{
-        background-image: url(leaf2.jpg);
-    }
 }
 #heading{
     background-color: #018e3c;

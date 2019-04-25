@@ -12,7 +12,10 @@
 body{
    background-image: url(leaf.jpg);
     background-size:cover;
+<<<<<<< HEAD
     background-origin: inherit;
+=======
+>>>>>>> 5f77d776b7b0c5f31050eee51c99578264958700
     background-attachment: fixed;
     background-position: center;
 }
@@ -28,9 +31,6 @@ body{
 @media max-width(600px){
     #box{
         width: 100%;
-    }
-    body{
-        background-image: url(leaf2.jpg);
     }
 }
 #heading{

@@ -1,3 +1,3 @@
-# simple_form
+# simple_form_Web_Template
 
-[Try](https://afnan-navaz.github.io/simple_form/.)
+[Click Here to Try this Form](https://afnan-navaz.github.io/simple_form/.)
